@@ -106,7 +106,7 @@ def handle_data(): #get the data
      dirstr = "backwards"
 
    #out put a message that states what the motor is doing.
-   print ("{0} @ {1} RPM for {2} steps".format(dirstr, rpm,steps))
+   print ("{0} @ {1} RPM for {2} cycles".format(dirstr, rpm,steps))
 
    #run the motor
    stepperGo(direction,delay,steps)

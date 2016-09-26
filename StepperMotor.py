@@ -71,7 +71,7 @@ while True:  #Infinite loop
        rpm = 160
     #delay = sec / step = 1 revolution / 200 steps * 60 sec / 1 minute * 1 minute / (RPM) revolutions
     #delay = 0.3 / RPM
-    delay = 0.3 / RPM
+    delay = 0.3 / rpm
 
     # get the # of revolutions from the user
     revolutions = abs(float(raw_input("how many revolutions?"))) 
